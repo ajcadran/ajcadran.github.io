@@ -1,0 +1,19 @@
+{
+  "name": "ajcadran",
+  "version": "1.0.1",
+  "homepage": "https://ajcadran.github.io/",
+  "description": "Link page",
+  "main": "index.js",
+  "scripts": {
+    "build": "xml-to-linkpage . ./build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Andrew Cadran",
+  "license": "ISC",
+  "dependencies": {
+    "xml-to-linkpage": "^1.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}

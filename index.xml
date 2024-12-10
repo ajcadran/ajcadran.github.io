@@ -1,0 +1,20 @@
+<page>
+    <title>Title Bar</title>
+    <handle>@Handle</handle>
+    <img>
+        <var name="--background-img-main">./img/img.png</var>
+        <var name="--background-img-link-btn">./img/img.png</var>
+        <var name="--img-copy">./img/copy.png</var>
+        <var name="--img-clipboard">./img/clipboard.png</var>
+    </img>
+    <links>
+        <link url="https://google.com">Google</link>
+        <link url="https://Youtube.com">Youtube</link>
+    </links>
+    <styles>
+        <var name="--theme-background-main">#ffffff</var>
+        <var name="--theme-background-link-btn">#dddddd</var>
+        <var name="--theme-color-main">#000000</var>
+        <var name="--theme-color-link-btn">#000000</var>
+    </styles>
+</page>
