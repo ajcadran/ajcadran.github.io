@@ -1,6 +1,6 @@
 <page>
-    <title>Title Bar</title>
-    <handle>@Handle</handle>
+    <title>Portfolio</title>
+    <handle>Andrew Cadran</handle>
     <img>
         <var name="--background-img-main">./img/img.png</var>
         <var name="--background-img-link-btn">./img/img.png</var>
@@ -8,8 +8,14 @@
         <var name="--img-clipboard">./img/clipboard.png</var>
     </img>
     <links>
-        <link url="https://google.com">Google</link>
-        <link url="https://Youtube.com">Youtube</link>
+        <link>
+            <text>Google</text>
+            <url>https://google.com</url>
+        </link>
+        <link>
+            <text>Youtube</text>
+            <url>https://Youtube.com</url>
+        </link>
     </links>
     <styles>
         <var name="--theme-background-main">#ffffff</var>
