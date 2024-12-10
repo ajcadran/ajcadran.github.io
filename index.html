@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Title Bar</title>
+    <title>Portfolio</title>
     <style>
 
     html {
@@ -261,11 +261,11 @@ function navigateTo(event, url) {
         window.open(url, '_blank');
     }
 }
-document.getElementById('navto-').addEventListener('mouseup', (event) => navigateTo(event, ""));
-document.getElementById('copy-').addEventListener('mouseup', (event) => copyToClipboard(event, ""));
+document.getElementById('navto-google').addEventListener('mouseup', (event) => navigateTo(event, "https://google.com"));
+document.getElementById('copy-google').addEventListener('mouseup', (event) => copyToClipboard(event, "https://google.com"));
 
-document.getElementById('navto-').addEventListener('mouseup', (event) => navigateTo(event, ""));
-document.getElementById('copy-').addEventListener('mouseup', (event) => copyToClipboard(event, ""));
+document.getElementById('navto-youtube').addEventListener('mouseup', (event) => navigateTo(event, "https://Youtube.com"));
+document.getElementById('copy-youtube').addEventListener('mouseup', (event) => copyToClipboard(event, "https://Youtube.com"));
 </script>
 </head>
 <body>
@@ -276,23 +276,23 @@ document.getElementById('copy-').addEventListener('mouseup', (event) => copyToCl
         </div>
     </span>
     <div id="header">
-        <img class="header-logo" src="./img/logo.png" alt="The logo for Title Bar." />
-        <div>@Handle</div>
+        <img class="header-logo" src="./img/logo.png" alt="The logo for Portfolio." />
+        <div>Andrew Cadran</div>
     </div>
     <div id="link-container" class="prevent-select">
-        <div id="navto-0" class="link-btn" title="undefined">
+        <div id="navto-google" class="link-btn" title="https://google.com">
             <div class="link-text">
-                
+                Google
             </div>
-            <div id="copy-0" class="copy-btn">
+            <div id="copy-google" class="copy-btn">
                 <img class="copy-btn-img" src="./img/copy.png" />
             </div>
         </div>
-        <div id="navto-1" class="link-btn" title="undefined">
+        <div id="navto-youtube" class="link-btn" title="https://Youtube.com">
             <div class="link-text">
-                
+                Youtube
             </div>
-            <div id="copy-1" class="copy-btn">
+            <div id="copy-youtube" class="copy-btn">
                 <img class="copy-btn-img" src="./img/copy.png" />
             </div>
         </div>
