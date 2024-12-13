@@ -1,6 +1,6 @@
 <page>
     <title>Portfolio</title>
-    <handle>Andrew Cadran</handle>
+    <handle>@AndrewCadran</handle>
     <img>
         <var name="--background-img-main">./img/img.png</var>
         <var name="--background-img-link-btn">./img/img.png</var>
@@ -9,12 +9,12 @@
     </img>
     <links>
         <link>
-            <text>Google</text>
+            <text>Magic</text>
             <url>https://google.com</url>
         </link>
         <link>
             <text>Youtube</text>
-            <url>https://Youtube.com</url>
+            <url>https://youtube.com</url>
         </link>
     </links>
     <styles>
