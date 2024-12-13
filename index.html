@@ -261,11 +261,11 @@ function navigateTo(event, url) {
         window.open(url, '_blank');
     }
 }
-document.getElementById('navto-google').addEventListener('mouseup', (event) => navigateTo(event, "https://google.com"));
-document.getElementById('copy-google').addEventListener('mouseup', (event) => copyToClipboard(event, "https://google.com"));
+document.getElementById('navto-magic').addEventListener('mouseup', (event) => navigateTo(event, "https://google.com"));
+document.getElementById('copy-magic').addEventListener('mouseup', (event) => copyToClipboard(event, "https://google.com"));
 
-document.getElementById('navto-youtube').addEventListener('mouseup', (event) => navigateTo(event, "https://Youtube.com"));
-document.getElementById('copy-youtube').addEventListener('mouseup', (event) => copyToClipboard(event, "https://Youtube.com"));
+document.getElementById('navto-youtube').addEventListener('mouseup', (event) => navigateTo(event, "https://youtube.com"));
+document.getElementById('copy-youtube').addEventListener('mouseup', (event) => copyToClipboard(event, "https://youtube.com"));
 </script>
 </head>
 <body>
@@ -277,18 +277,18 @@ document.getElementById('copy-youtube').addEventListener('mouseup', (event) => c
     </span>
     <div id="header">
         <img class="header-logo" src="./img/logo.png" alt="The logo for Portfolio." />
-        <div>Andrew Cadran</div>
+        <div>@AndrewCadran</div>
     </div>
     <div id="link-container" class="prevent-select">
-        <div id="navto-google" class="link-btn" title="https://google.com">
+        <div id="navto-magic" class="link-btn" title="https://google.com">
             <div class="link-text">
-                Google
+                Magic
             </div>
-            <div id="copy-google" class="copy-btn">
+            <div id="copy-magic" class="copy-btn">
                 <img class="copy-btn-img" src="./img/copy.png" />
             </div>
         </div>
-        <div id="navto-youtube" class="link-btn" title="https://Youtube.com">
+        <div id="navto-youtube" class="link-btn" title="https://youtube.com">
             <div class="link-text">
                 Youtube
             </div>
